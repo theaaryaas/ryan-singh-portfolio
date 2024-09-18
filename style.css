@@ -1,0 +1,131 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pastel body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/soft-paper.png'); /* Pastel tech-style background */
+}
+
+/* Navigation styling */
+nav {
+    background-color: #81d4fa;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0277bd;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b3e5fc;
+    color: #004d40;
+    border-radius: 5px;
+}
+
+/* Header section with image */
+header {
+    text-align: center;
+    padding: 3rem;
+    background-color: #81d4fa;
+    border-bottom: 5px solid #0288d1;
+    position: relative;
+    animation: fadeIn 2s ease-in;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: transform 0.5s ease;
+}
+
+.header-image:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #0277bd;
+    text-shadow: 0 0 15px #81d4fa;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #01579b;
+    font-style: italic;
+}
+
+/* Section styling with pastel and animated borders */
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-left: 5px solid #81d4fa;
+    border-right: 5px solid #81d4fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Section titles with bright effect */
+section h2 {
+    font-size: 2rem;
+    color: #0288d1;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #0288d1, 0 0 20px #0288d1;
+}
+
+/* Project section with vibrant colors and animations */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #e1f5fe;
+    border: 2px solid #0288d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.
